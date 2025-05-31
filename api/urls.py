@@ -1,7 +1,7 @@
 from rest_framework.routers import DefaultRouter
 from django.urls import path, include
 from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView, SpectacularRedocView
-from todo.views.todo_views import TodoViewSet
+from api.views.todo_views import TodoViewSet
 
 router = DefaultRouter()
 router.register(r'todos', TodoViewSet, basename='todo')

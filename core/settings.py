@@ -44,8 +44,8 @@ INSTALLED_APPS = [
     'drf_spectacular_sidecar',
     'corsheaders',
     
-    #Locales
-    'todo',
+    # Locales
+    'api',
 ]
 
 REST_FRAMEWORK = {

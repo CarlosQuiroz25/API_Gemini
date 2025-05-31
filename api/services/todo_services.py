@@ -1,5 +1,5 @@
 from django.core.exceptions import ValidationError
-from todo.models.todo_model import Todo
+from api.models.todo_model import Todo
 
 def create_todo(data: dict) -> Todo:
   title = data.get('title')

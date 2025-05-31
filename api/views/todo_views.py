@@ -1,8 +1,8 @@
 from rest_framework import viewsets, status
 from rest_framework.response import Response
-from todo.serializers.todo_serializers import TodoSerializer
-from todo.models.todo_model import Todo  # Asegúrate que existe este modelo
-from todo.services.todo_services import (
+from api.serializers.todo_serializers import TodoSerializer
+from api.models.todo_model import Todo  # Asegúrate que existe este modelo
+from api.services.todo_services import (
     get_todos, get_todo, create_todo, update_todo, delete_todo
 )
 from drf_spectacular.utils import extend_schema, extend_schema_view
